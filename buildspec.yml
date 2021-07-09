@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - ping 8.8.8.8
+  build:
+    commands:
+      - ping 8.8.8.8
+artifacts:
+  files:
+    - '**/*
