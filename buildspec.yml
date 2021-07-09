@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - ping 8.8.8.8
+      - npm install
   build:
     commands:
-      - ping 8.8.8.8
+      - npm install
 artifacts:
   files:
     - '**/*'
