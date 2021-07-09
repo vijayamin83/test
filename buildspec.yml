@@ -9,4 +9,4 @@ phases:
       - ping 8.8.8.8
 artifacts:
   files:
-    - '**/*
+    - '**/*'
