@@ -2,11 +2,11 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        python: 3.8
+        nodejs: 10
   build:
     commands:
        - npm install
-       - pip install --upgrade pip
+#      - pip install --upgrade pip
 #      - pip install pipenv --user
 #      - pipenv install aws-sam-cli
 #      - sam package --template-file template.yml --s3-bucket codepipeline-eu-west-1-428190927109 --output-template-file packaged-template.yml 
